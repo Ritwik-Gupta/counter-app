@@ -1,0 +1,12 @@
+
+<div>
+  <div>
+    <button class="btn btn-primary mx-4" (click)="onIncrement()">Increment</button>
+    <button class="btn btn-warning" (click)="onDecrement()">Decrement</button>
+    <button class="btn btn-info mx-4" (click)="onReset()">Reset</button>
+  </div>
+  <div class="mx-4 my-2 row ">
+    <input type="number" class="form-control col" [(ngModel)]="customValue">
+    <button class="btn btn-primary col mx-3" (click)="onCustomIncrement()"> Add custom value</button>
+  </div>
+</div>
